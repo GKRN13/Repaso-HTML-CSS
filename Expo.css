@@ -1,0 +1,170 @@
+/** {
+  border: 1px solid red;
+}*/
+
+/* Cuerpo */
+
+body {
+  background: url(../Geert_kevin/Material/img/fondo.jpg);
+}
+
+/* Caja Expo92 header*/
+.box1 {
+  background-color: #223a5e;
+  text-align: center;
+  font-size: 1.8em;
+  color: white;
+  border-bottom-color: gray;
+  border-bottom-style: solid;
+  border-top-width: 5px;
+}
+
+.box1::first-letter {
+  font-size: 1.5em;
+}
+
+/* Navegación */
+
+nav {
+  width: 15%;
+  background-color: #223a5e;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: block;
+  float: left;
+}
+
+nav li a {
+  color: #f6d155;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+.navin {
+  text-align: center;
+}
+
+/* Parrafos y titulos */
+.p1 {
+  margin-left: 20%;
+  margin-right: 15%;
+  text-align: start;
+}
+
+.ti1 {
+  margin-left: 20%;
+  margin-right: 15%;
+  width: "210";
+  height: "210";
+  color: brown;
+}
+.ti1 hr {
+  border-color: brown;
+}
+
+.sub {
+  margin-left: 20%;
+  margin-right: 15%;
+  color: brown;
+  font-style: italic;
+}
+
+/* Imagenes  */
+.img1 {
+  outline-color: gray;
+  outline-style: solid;
+  outline-offset: 3px;
+  display: inline-block;
+  border: 3px;
+}
+
+.im1 {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.img2 {
+  outline-color: gray;
+  outline-style: solid;
+  display: inline-block;
+  border: 3px;
+}
+.im2 {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.blockimg {
+  width: 100%;
+  text-align: center;
+  margin-top: 2em;
+  font-style: italic;
+  margin-bottom: 10px;
+  border: 3px;
+}
+
+.blockimg img {
+  display: inline-block;
+  width: 100%;
+}
+
+.figu1 {
+  display: inline-block;
+  width: 20%;
+}
+
+.figucurro {
+  display: inline-block;
+  margin: auto;
+  margin-left: -15%;
+}
+
+.img3 {
+  outline-color: gray;
+  outline-style: solid;
+  display: inline-block;
+}
+/* Tabla */
+.tabla {
+  margin: auto;
+  border-collapse: collapse;
+}
+.celdaAZ {
+  color: white;
+  background-color: #223a5e;
+  text-align: center;
+  margin: 10px;
+  border-spacing: 10px;
+}
+.celdaNAC {
+  background-color: #d49f75;
+  text-align: center;
+  margin: 10px;
+  border-spacing: 10px;
+}
+.celdaNAO {
+  background-color: #c48f65;
+  text-align: center;
+  margin: 10px;
+  border-spacing: 10px;
+}
+/* Footer  */
+.box2 {
+  background-color: #223a5e;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top-style: solid;
+  border-top-color: gray;
+  border-top-width: 5px;
+}
+
+a {
+  color: #f6d155;
+  text-decoration: none;
+}
